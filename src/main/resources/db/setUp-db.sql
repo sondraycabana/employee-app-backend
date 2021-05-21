@@ -1,0 +1,7 @@
+--drop user  if exists 'myuser'@'localhost';
+--create user 'myuser'@'localhost' identified by  'mypassword';
+--grant all privileges on employees_management_system.* to 'myuser'@'localhost';
+--flush privileges;
+--
+--drop database if  exists employees_management_system;
+--create database employees_management_system;

@@ -1,0 +1,16 @@
+--SET FOREIGN_KEY_CHECKS = 0;
+--
+--truncate table employees
+--
+--
+--insert  into employees(`id`,`first_name`,`last_name`,`email_id`)
+--values(1,'ade','dosunmu','a@gmail.com'),
+----(2,'monsura','ganduje','28'),
+----(3,'sulaimon','donzada','21');
+--
+----insert into hospital(`id`,`name`,`registered_no`)
+----values(1,'lagos hospital','12345'),
+----(2,'army hospital','23894'),
+----(3,'wharf hospital','90879');
+--
+--SET FOREIGN_KEY_CHECKS = 1;
